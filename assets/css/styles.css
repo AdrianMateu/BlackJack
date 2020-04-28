@@ -1,0 +1,38 @@
+html,
+body {
+	/* background-color: #2f4f30; */
+	margin: 0px;
+	background: black url(../img/background4.jpg);
+	background-size: cover;
+	color: white;
+}
+
+.title {
+	font-family: "BlackJack";
+	text-align: center;
+	/* background-color: black; */
+	color: white;
+	font-size: 30px;
+	padding: 10px;
+}
+
+.card {
+	position: relative;
+	display: inline-flex;
+	width: 150px;
+	left: 100px;
+	margin-left: -75px;
+}
+
+.pull-right {
+	float: right !important;
+}
+
+#player-cards,
+#computer-cards {
+	height: 240px;
+}
+
+*[disabled] {
+	cursor: not-allowed;
+}
